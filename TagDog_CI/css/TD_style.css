@@ -1,0 +1,25 @@
+body {
+background-image:url('http://cloudedbox.com/CI/TagDog/Images/husk.png');
+background-repeat: repeat;
+}
+.hero-unit {
+background-image:url('http://cloudedbox.com/CI/TagDog/Images/grid_noise.png');
+background-repeat:repeat;
+border-bottom:2px solid #CCC;
+}
+.hero-unit h1 {
+text-shadow: 0px 2px 3px #666;
+}
+.hero-unit .container {
+background-image:url('http://cloudedbox.com/CI/TagDog/Images/screen-tagdog.png');
+background-repeat:none;
+background-position: center top, left top;
+z-index:-5;
+}
+a:hover{
+text-decoration:none;
+}
+
+.light {
+font-weight:200;
+}
