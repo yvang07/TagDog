@@ -1,0 +1,37 @@
+#login_form {
+     margin: 150px auto;
+     width: 600px;
+}
+
+#login_form h1 {
+     font-size: 42px;
+     text-align: center;
+     margin-bottom:15px
+}
+
+#login_form form {
+    width:500px;
+    margin:0 auto;
+    padding:20px 50px 50px;
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow:         3px 3px 5px 6px #ccc;
+    text-align:center;
+}
+
+#login_form input[type="text"], #login_form input[type="password"] {
+     margin: 10px 0pt 10px 10px;
+     padding: 8px;
+     width: 200px;
+}
+
+#login_form button[type="submit"] {
+     font-size: 20px;
+     margin:15px;
+     padding: 12px;
+     width: 150px;
+}
+#login_form button[type="cancel"] {
+	margin-left:50px;
+}
+
