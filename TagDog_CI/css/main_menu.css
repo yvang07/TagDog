@@ -1,6 +1,6 @@
 
 /*Containers start*/
-div.menu_container
+.menu_container
 {
     border: solid;
     border-radius:10px;
@@ -9,7 +9,7 @@ div.menu_container
     height: 700px;
 }
 
-div.display_container
+.display_container
 {
     /*border: solid;*/
     border-radius: 10px;
@@ -19,7 +19,7 @@ div.display_container
     margin-bottom:10px;
 }
 
-div.footer_container
+.footer_container
 {
     border: solid;
     background-color:rgb(16,16,16);
@@ -28,7 +28,7 @@ div.footer_container
     margin-top: 10px;
 }
 
-div.menu_logo
+.menu_logo
 {
     height: 30%;
     width:100%;
@@ -42,7 +42,7 @@ div.menu_logo
     margin-top: 25px;
 }
 
-div.menu_items
+.menu_items
 {
     height: 69%;
     width: 100%;
@@ -50,13 +50,26 @@ div.menu_items
     border-top:white;
 }
 
-div.display_top
+.menu_options
+{
+    color: white;
+    font-size: 50px;
+    line-height: 1.5;
+}
+
+.menu_options:hover
+{
+    color: orange;
+    margin-left:10px;
+}
+
+.display_top
 {
     height: 50%;
     background-color:rgb(16,16,16);
 }
 
-div.display_bottom
+.display_bottom
 {
     background-color:rgb(16,16,16);
     height:49%;
