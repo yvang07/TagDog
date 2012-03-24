@@ -1,29 +1,14 @@
 jQuery(document).ready(function(){
 
   
-  jQuery("#submit").click( 
+	jQuery("#title_tagdog").hover(
+
+		function(){ 
+			var elementToChange = "#information"
+			clearTextAt(elementToChange, 3000);}
+	);	
   
-    function(){
-    
-        var username=jQuery("#username").val();
-        var password=jQuery("#password").val();
-      
-        jQuery.ajax({
-        type: "POST",
-        url: "http://cloudedbox.com/CI/TagDog/TagDog_CI/ajax/post_action",
-        dataType: "json",
-        data: "username="+username+"&password="+password,
-        cache:false,
-        success: 
-          function(data){
-            jQuery("#form_message").html(data.message).css({'background-color' : data.bg_color}).fadeIn('slow'); 
-          }
-        
-        });
 
-      return false;
-
-    });
 
    jQuery("#login_submit").click(
 
@@ -49,6 +34,13 @@ jQuery(document).ready(function(){
 	return false;
    });
   
+function clearTextAt(idOfElement, when) {
+	var t=setTimeout(function(){clearText(idOfElement)}, when);
+}
 
+function clearText(idOfElement) {
+	jQuery(idOfElement).html("You hovered the title 3 seconds ago.");
+}
 });
+
 

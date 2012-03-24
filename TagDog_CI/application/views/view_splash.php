@@ -6,7 +6,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="#">TagDog</a>
+          <a id="title_tagdog" class="brand" href="#">TagDog</a>
           <div class="nav-collapse">
             <ul class="nav">
               <li class="active"><a href="#">Home</a></li>
@@ -43,7 +43,7 @@
 
           <div class="well sidebar-nav">
             <ul class="nav nav-list">
-              <li class="nav-header">Information</li>
+              <li id="information" class="nav-header">Information</li>
             </ul>
           </div><!--/.well -->
 
