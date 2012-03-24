@@ -14,6 +14,8 @@
 | path to your installation.
 |
 */
+
+//$config['base_url']	= 'http://cloudedbox.com/CI/TagDog/';
 $config['base_url']	= 'http://localhost/TagDog/TagDog_CI/';
 
 /*
