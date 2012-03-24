@@ -10,8 +10,7 @@ class Splash extends CI_Controller {
 
 	function index() {
 		$this->load->library('javascript');
-		//$this->load->library('jquery');
-		$this->load->library('jquery', FALSE);
+		//$this->load->library('jquery', FALSE);
 		$data['main_content'] = 'view_splash';
 		$this->load->view('includes/template', $data);
 	}

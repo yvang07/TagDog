@@ -21,19 +21,6 @@ class Login extends CI_Controller {
 	}
 	function post_action() {
 
-		if (($_POST['login_username'] == "") || ($_POST['login_password'] == "")) {
-
-			$message = "You didn't type enough.";
-			$new_class = "alert alert-error";
-		} else {
-
-
-			$message = "We're not accepting";
-			$new_class = "alert alert-success";
-		}
-
-		$output = '{ "message": "'.$message.'", "newclass": "'.$new_class.' fade in" }';
-		echo $output;
-
+	
 	}
 }

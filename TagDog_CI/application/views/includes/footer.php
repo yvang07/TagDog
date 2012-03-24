@@ -1,4 +1,23 @@
- <!-- Le javascript
+          </div>
+	</span>
+
+
+
+
+            <!--p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p-->
+          </div>
+
+        </div><!--/span-->
+      </div><!--/row-->
+
+      <hr>
+
+      <footer>
+        <p>Team TagDog <span style="color:#b40001">@FresnoState </span> <small>Spring 2012</small></p>
+      </footer>
+
+    </div><!--/.fluid-container--> 
+<!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="../bootstrap/js/jquery.js"></script>
