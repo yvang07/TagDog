@@ -1,0 +1,152 @@
+
+/*Containers start*/
+div.menu_container
+{
+    border: solid;
+    border-radius:10px;
+    background-color:rgb(16,16,16);
+    text-align: center;
+    height: 700px;
+}
+
+div.display_container
+{
+    /*border: solid;*/
+    border-radius: 10px;
+    background-color:rgb(16,16,16);
+    text-align:center;
+    height: 700px;
+    margin-bottom:10px;
+}
+
+div.footer_container
+{
+    border: solid;
+    background-color:rgb(16,16,16);
+    text-align:center;
+    color:white;
+    margin-top: 10px;
+}
+
+div.menu_logo
+{
+    height: 30%;
+    width:100%;
+    background-color:rgb(16,16,16);
+}
+
+#logo
+{
+    color:white;
+    font-size: 70px;
+    margin-top: 25px;
+}
+
+div.menu_items
+{
+    height: 69%;
+    width: 100%;
+    background-color:rgb(16,16,16);
+    border-top:white;
+}
+
+div.display_top
+{
+    height: 50%;
+    background-color:rgb(16,16,16);
+}
+
+div.display_bottom
+{
+    background-color:rgb(16,16,16);
+    height:49%;
+    /*border-top:solid;*/
+    overflow: hidden;
+}
+
+/**********************Create CSS starts here*************************
+ *Structure
+ *     display_top
+ *          display_top_create# (1-4)
+ *     display_bottom
+ *          
+ *          display_bottom_info
+ */
+
+.display_top_create1, .display_top_create2, .display_top_create3, .display_top_create4
+{
+    height: 40px;
+    width: 50%;
+    margin:10px auto 10px auto;
+    background-color: rgb(56,56,56);
+    border-radius:20px;
+}
+
+.display_bottom_info
+{
+    height: 80%;
+    width: 40%;
+    background-color: rgb(56,56,56);
+    border-radius:20px;
+    margin: 10px auto 10px auto;
+}
+
+.QR_image
+{
+    height:90%;
+    width: 90%;
+}
+
+/******************************************************/
+/********BROWSE CSS starts here************************/
+
+.display_top_browse
+{
+    height: 90%;
+    width: 90%;
+    background-color: rgb(56,56,56);
+    margin: 0px auto 0px auto;
+    border-radius: 25px;
+}
+
+.display_bottom_browse
+{
+    height: 50%;
+    width: 50%;
+    background-color: rgb(56,56,56);
+    margin: 20px auto 0px auto;
+    border-radius: 25px;
+}
+
+/***************BROWSE CSS ends***********************/
+
+.display_top_identify
+{
+    height: 80%;
+    width: 60%;
+    background-color: rgb(56,56,56);
+    margin: 0px auto 0px auto;
+    border-radius: 25px;
+}
+
+.display_bottom_identify
+{
+    height: 100%;
+    width: 80%;
+    background-color: rgb(56,56,56);
+    margin: 0px auto 0px auto;
+    border-radius: 25px;
+}
+
+body
+{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(16,16,16);
+}
+#main_menu
+{
+    margin-left:auto;
+    margin-right: auto;
+    background-color:rgb(16,16,16);
+}
