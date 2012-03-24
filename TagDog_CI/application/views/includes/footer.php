@@ -1,6 +1,7 @@
  <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../bootstrap/js/jquery.js"></script>
     <script src="../bootstrap/js/bootstrap-transition.js"></script>
     <script src="../bootstrap/js/bootstrap-alert.js"></script>
     <script src="../bootstrap/js/bootstrap-modal.js"></script>
@@ -18,6 +19,12 @@
     <script src="javascript/dragdrop.js" type="text/javascript"></script>
     <script src="javascript/controls.js" type="text/javascript"></script>
     <script src="javascript/ajax_post.js" type="text/javascript"></script>
+	<script>
+		jQuery(".alert").alert();
+		jQuery('#mainDisplay').scrollspy();
+		jQuery(".link_tags, .link_options").popover();
+	</script>
+
   </body>
 </html>
 
