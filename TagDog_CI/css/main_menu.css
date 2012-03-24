@@ -148,5 +148,7 @@ body
 {
     margin-left:auto;
     margin-right: auto;
+    width: 960px;
+    height: 100%;
     background-color:rgb(16,16,16);
 }
