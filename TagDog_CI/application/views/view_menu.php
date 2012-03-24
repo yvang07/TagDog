@@ -50,6 +50,8 @@
                         </div>
                     </div>
                 </div>
+                
+        <!--
                 <div class="span8">
                     <div class="display_container">
                         <div class="display_top">
@@ -67,31 +69,9 @@
                     </div>
                 </div>
             </div>
+        -->
         
-            <div class="row">
-                <div class="span12">
-                    <div class="footer_container">
-                        Footer
-                    </div>
-                </div>
-            </div>
-        </div>
         
-        <!--
-        <div id="main_menu">
-            <div class="row">
-                <div class="span4">
-                    <div class="menu_container">
-                        <div class="menu_logo">
-                            <h1 id="logo">
-                                tagdog
-                            </h1>
-                        </div>
-                        <div class="menu_items">
-                            ITEMS
-                        </div>
-                    </div>
-                </div>
                 <div class="span8">
                     <div class="display_container">
                         <div class="display_top">
@@ -109,36 +89,12 @@
                     </div>
                 </div>
             </div>
-            
         
-            <div class="row">
-                <div class="span12">
-                    <div class="footer_container">
-                        Footer
-                    </div>
-                </div>
-            </div>
-        </div>
-        -->
         
-       <!--<div id="main_menu">
-            <div class="row">
-                <div class="span4">
-                    <div class="menu_container">
-                        <div class="menu_logo">
-                            <h1 id="logo">
-                                tagdog
-                            </h1>
-                        </div>
-                        <div class="menu_items">
-                            ITEMS
-                        </div>
-                    </div>
-                </div>
+       <!--
                 <div class="span8">
                     <div class="display_container">
                         <div class="display_top">
-                            TOP
                             <div class="display_top_create1">
                             </div>
                             <div class="display_top_create2">
@@ -149,35 +105,15 @@
                             </div>
                         </div>
                         <div class="display_bottom">
-                            BOTTOM
                             <div class="display_bottom_info">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        
-            <div class="row">
-                <div class="span12">
-                    <div class="footer_container">
-                        Footer
-                    </div>
-                </div>
-            </div>
-        </div>-->
+        -->
 
-        <!-- <div id="main_menu">
-            <div class="row">
-                <div class="span4">
-                    <div class="menu_container">
-                        <div class="menu_logo">
-                            LOGO
-                        </div>
-                        <div class="menu_items">
-                            ITEMS
-                        </div>
-                    </div>
-                </div>
+        <!--
                 <div class="span8">
                     <div class="display_container">
                         <div class="display_top">
@@ -189,6 +125,7 @@
                     </div>
                 </div>
             </div>
+        -->
         
             <div class="row">
                 <div class="span12">
@@ -197,7 +134,7 @@
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
         
 
         

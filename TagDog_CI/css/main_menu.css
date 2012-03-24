@@ -30,7 +30,7 @@
 
 .menu_logo
 {
-    height: 30%;
+    height: 10%;
     width:100%;
     background-color:rgb(16,16,16);
 }
@@ -38,8 +38,14 @@
 #logo
 {
     color:white;
-    font-size: 70px;
-    margin-top: 25px;
+    font-size: 6em;
+    margin-top: 35px;
+}
+
+#logo:hover
+{
+    color: orange;
+    font-style: italic;
 }
 
 .menu_items
@@ -55,12 +61,15 @@
     color: white;
     font-size: 50px;
     line-height: 1.5;
+    display:block;
 }
 
 .menu_options:hover
 {
     color: orange;
     margin-left:10px;
+    text-decoration:none;
+    font-size:6em;
 }
 
 .display_top
@@ -88,20 +97,32 @@
 
 .display_top_create1, .display_top_create2, .display_top_create3, .display_top_create4
 {
-    height: 40px;
-    width: 50%;
+    height: 50px;
+    width: 70%;
     margin:10px auto 10px auto;
     background-color: rgb(56,56,56);
     border-radius:20px;
 }
 
+.display_top_create1:hover, .display_top_create2:hover, .display_top_create3:hover, .display_top_create4:hover
+{
+    border:solid;
+    border-color: orange;
+}
+
 .display_bottom_info
 {
     height: 80%;
-    width: 40%;
+    width: 60%;
     background-color: rgb(56,56,56);
     border-radius:20px;
     margin: 10px auto 10px auto;
+}
+
+.display_bottom_info:hover
+{
+    border:solid;
+    border-color: orange;
 }
 
 .QR_image
@@ -122,6 +143,12 @@
     border-radius: 25px;
 }
 
+.display_top_browse:hover
+{
+    border:solid;
+    border-color:orange;
+}
+
 .display_bottom_browse
 {
     height: 50%;
@@ -129,6 +156,12 @@
     background-color: rgb(56,56,56);
     margin: 20px auto 0px auto;
     border-radius: 25px;
+}
+
+.display_bottom_browse:hover
+{
+    border:solid;
+    border-color:orange;
 }
 
 /***************BROWSE CSS ends***********************/
@@ -140,6 +173,18 @@
     background-color: rgb(56,56,56);
     margin: 0px auto 0px auto;
     border-radius: 25px;
+}
+
+.display_top_identify:hover
+{
+    border: solid;
+    border-color: orange;
+}
+
+.display_bottom_identify:hover
+{
+    border: solid;
+    border-color: orange;
 }
 
 .display_bottom_identify
