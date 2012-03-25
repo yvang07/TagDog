@@ -1,6 +1,6 @@
 <?php
 
-class Login extends CI_Controller {
+class Splash extends CI_Controller {
 
  	function Login_post() {
 
@@ -9,8 +9,9 @@ class Login extends CI_Controller {
  	}
 
 	function index() {
-
-		$data['main_content'] = 'view_login';
+		$this->load->library('javascript');
+		//$this->load->library('jquery', FALSE);
+		$data['main_content'] = 'view_splash';
 		$this->load->view('includes/template', $data);
 	}
 
@@ -21,6 +22,6 @@ class Login extends CI_Controller {
 	}
 	function post_action() {
 
-	
+		
 	}
 }

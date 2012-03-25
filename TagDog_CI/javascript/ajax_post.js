@@ -1,54 +1,35 @@
 jQuery(document).ready(function(){
 
   
-  jQuery("#submit").click( 
+	jQuery("#title_tagdog").hover(
+
+		function(){
+			var listsize = jQuery(".info_item").length;
+			var itemname = "info_item"+(listsize+1).toString();
+			jQuery("#info_list").append("<li id='"+itemname+"' class='info_item'>Hovered the title</li>"); 
+			clearTextAt(itemname, 3000);},
+		function(){}
+	);
+	jQuery("#title_tagdog").click(
+
+		function(){
+			var listsize = jQuery(".alert").length;
+			var itemname = "error_item"+(listsize+1).toString();
+
+			jQuery("#error_list").append("<li id="+itemname+" class='alert alert-error'><a class='close' data-dismiss='alert' href='#'>&times;</a><strong>Warning!</strong> You broked it.</li>"); 
+			clearTextAt(itemname, 3000);}
+	);	
+	
   
-    function(){
-    
-        var username=jQuery("#username").val();
-        var password=jQuery("#password").val();
-      
-        jQuery.ajax({
-        type: "POST",
-        url: "http://cloudedbox.com/CI/TagDog/TagDog_CI/ajax/post_action",
-        dataType: "json",
-        data: "username="+username+"&password="+password,
-        cache:false,
-        success: 
-          function(data){
-            jQuery("#form_message").html(data.message).css({'background-color' : data.bg_color}).fadeIn('slow'); 
-          }
-        
-        });
+function clearTextAt(itemname, when) {
 
-      return false;
+	var t=setTimeout(function(){clearText(itemname)}, when);
+}
 
-    });
-
-   jQuery("#login_submit").click(
-
-	function() {
-
-	var username=jQuery("#login_username").val();
-	var password=jQuery("#login_password").val();
-
-	jQuery.ajax({
-
-	type:	"POST",
-	url:	"http://cloudedbox.com/CI/TagDog/TagDog_CI/login/post_action",
-	dataType:	"json",
-	data:	"login_username="+username+"&login_password="+password,
-	cache:	false,
-	success:
-		function(data) {
-			jQuery("#change_this").html(data.message).attr('class', data.newclass).fadeIn('slow');
-		}
-
-	});
-
-	return false;
-   });
-  
-
+function clearText(itemname) {
+	//jQuery(('#'+itemname)).html("");
+	jQuery(('#'+itemname)).remove();
+}
 });
+
 
