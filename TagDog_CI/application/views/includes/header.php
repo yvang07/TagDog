@@ -52,7 +52,30 @@
 .alert-block>p,.alert-block>ul{margin-bottom:0;}
 .alert-block p+p{margin-top:5px;}
 
+/**********Browse Style**********/
+#map_canvas { height:350px;width:60%;border:1;border-style:solid;}
+/*#browse_tag_info {height:350px;width:35%;float:right;border:1;border-style:solid;}*/
+/**********./Browse Style********/
+
     </style>
+
+<!--google_map_js-->
+    <script type="text/javascript"
+      src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDrFQDjPnHJhXpzFHfl1TYyeCkzY1JfgL8&sensor=false">
+    </script>
+    <script type="text/javascript">
+      function load_map() {
+        var myOptions = {
+          center: new google.maps.LatLng(-34.397, 150.644),
+          zoom: 8,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        var map = new google.maps.Map(document.getElementById("map_canvas"),
+            myOptions);
+      }
+    </script>
+<!--./google_map_js-->
+
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -65,4 +88,4 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://cloudedbox.com/bootstrap/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="http://cloudedbox.com/bootstrap/ico/apple-touch-icon-57-precomposed.png">
   </head>
-  <body>
+  <body onload="load_map()">
