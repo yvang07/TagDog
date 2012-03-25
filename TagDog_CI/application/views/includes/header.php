@@ -52,6 +52,15 @@
 .alert-block>p,.alert-block>ul{margin-bottom:0;}
 .alert-block p+p{margin-top:5px;}
 
+/*CREATE CSS*/
+#create_container{overflow:hidden;}
+#user_text,#fname_create,#lname_create{display:block; margin-top:20px;}
+#QR_code{height: 100%; width: 100%; overflow:hidden; border-radius: 20px; background-color:black; border-color:black;}
+.create_text{display:inline-block;margin-right:100px;}
+.create_box{vertical-align: top; overflow:hidden; display: inline-block; height: 300px; width: 300px; background-color: rgb(56,56,56); border-radius:20px;margin-left:20px;}
+
+/*CREATE CSS ENDS*/
+
     </style>
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
