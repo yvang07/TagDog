@@ -1,10 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-
-<?php echo $library_src;?>
-<?php echo $script_head;?>
-
     <meta charset="utf-8">
     <title>[TAGDOG]</title>
     <!--meta name="viewport" content="width=device-width, initial-scale=1.0"-->
@@ -27,6 +23,13 @@
 	  height: 400px;
   	overflow: auto;
   	position: relative;
+	}
+	#splash_page {
+	width:100%;
+	height:100%;
+	top:0px;
+	left:0px;
+	position:relative;
 	}
 .label,.alert{background-color:#666666;}
 .label:hover{background-color:#4d4d4d;}

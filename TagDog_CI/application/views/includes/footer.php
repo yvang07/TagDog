@@ -16,7 +16,8 @@
         <p>Team TagDog <span style="color:#b40001">@FresnoState </span> <small>Spring 2012</small></p>
       </footer>
 
-    </div><!--/.fluid-container--> 
+    </div><!--/.fluid-container-->
+</div><!--splash page--> 
 <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -40,7 +41,7 @@
     <script src="javascript/ajax_post.js" type="text/javascript"></script>
 	<script>
 		jQuery(".alert").alert();
-		jQuery('#mainDisplay').scrollspy();
+		jQuery('#mainDisplay').scrollspy({offset:-1000});
 		jQuery(".link_tags, .link_options").popover();
 	</script>
 

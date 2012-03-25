@@ -1,48 +1,16 @@
-    <div class="navbar" style="top:0px; position:relative;">
-      <div class="navbar-inner">
-        <div class="container-fluid">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          <a id="title_tagdog" class="brand" href="#">TagDog</a>
-          <div class="nav-collapse">
-            <ul class="nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#contact">Contact</a></li>
-              <li><a href="http://goo.gl/RVePH">Download</a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div>
-      </div>
-    </div>
-
+<div class="splash_page">
     <div class="container-fluid">
       <div class="row-fluid">
-        <div class="span3">
+        <div class="span3" style="height:100%; position:relative; overflow:hidden;">
           <div class="well sidebar-nav">
-            <ul class="nav nav-list">
+            <ul id="error_list" class="nav nav-list">
               <li class="nav-header">Current Status</li>
-		<li class="alert alert-success"><a class="close" data-dismiss="alert" href="#">&times;</a>
-			<strong>Looks Good.</strong> You can move on now.
-		</li>
-		<li class="alert alert-info"><a class="close" data-dismiss="alert" href="#">&times;</a>
-			<strong>Important!</strong> Nothing works.
-		</li>
-		<li class="alert alert-block"><a class="close" data-dismiss="alert" href="#">&times;</a>
-			<strong>General Info.</strong> This project is under development.
-		</li>
 
-		<li class="alert alert-error"><a class="close" data-dismiss="alert" href="#">&times;</a>
-			<strong>Uh Oh!</strong> You're running out of time!
-		</li>
             </ul>
           </div><!--/.well -->
 
           <div class="well sidebar-nav">
-            <ul class="nav nav-list">
+            <ul id="info_list" class="nav nav-list">
               <li id="information" class="nav-header">Information</li>
             </ul>
           </div><!--/.well -->
@@ -90,29 +58,6 @@
                 <a class="brand" href="#browse">Browse</a>
                 <a class="brand" href="#share">Share</a>
                 <a class="brand" href="#toggles">Toggles</a>
-		<!--ul class="nav">
-		<li class="dropdown">
-		<a href="#" class="dropdown-toggle" data-toggle="dropdown">Options <b class="caret"></b></a>
-                 <ul class="dropdown-menu">
-		  <li><a href="#one">One</a></li>
-		  <li><a href="#two">Two</a></li>
-		  <li><a href="#three">Three</a></li>
-		 </ul>
-		</li>
-
-                <ul class="nav">
-                  <li><a href="#fat">@fat</a></li>
-                  <li><a href="#mdo">@mdo</a></li>
-                  <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                      <li><a href="#one">one</a></li>
-                      <li><a href="#two">two</a></li>
-                      <li class="divider"></li>
-                      <li><a href="#three">three</a></li>
-                    </ul>
-                  </li>
-                </ul-->
               </div>
             </div>
           </div>

@@ -30,7 +30,7 @@ $config['javascript_ajax_img'] = 'http://cloudedbox.com/bootstrap/img/ajax-loade
 | variable so that it is blank.
 |
 */
-$config['index_page'] = '';
+$config['index_page'] = 'splash';
 
 /*
 |--------------------------------------------------------------------------
