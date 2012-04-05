@@ -15,8 +15,8 @@
 |
 */
 
-//$config['base_url']	= 'http://cloudedbox.com/CI/TagDog/';
-$config['base_url']	= 'http://localhost/TagDog/TagDog_CI/';
+$config['base_url']	= 'http://cloudedbox.com/CI/TagDog/';
+//$config['base_url']	= 'http://localhost/TagDog/TagDog_CI/';
 
 $config['javascript_location'] = 'http://cloudedbox.com/bootstrap/js/';
 $config['javascript_ajax_img'] = 'http://cloudedbox.com/bootstrap/img/ajax-loader.gif';
