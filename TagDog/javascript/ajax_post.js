@@ -7,8 +7,21 @@ jQuery(document).ready(function(){
 			var listsize = jQuery(".alert").length;
 			var itemname = "share_"+(listsize+1).toString();
 			var via = jQuery(this).val();
-			postStatus(itemname, via, 'info');
 			
+			jQuery.ajax ({
+
+			  type: "POST",
+			  url:  "http://cloudedbox.com/TagDog/home/share",
+			  dataType: "json",
+			  data: "share_var="+via,
+			  cache:false,
+			  success:
+			   function(data) {
+			     postStatus(itemname, data.message, 'info');
+			   }
+			});
+			return false;
+
 		}
 
 

@@ -20,7 +20,7 @@ Want to contribute? Great! Here's what we're up to.
 
 ### Web Application
 
-The web applications is part of an academic project. We're working on creating a site where one can simply create, identify, track print, and share QR codes.
+The web applications is part of an academic project. We're working on creating a site where one can simply create, identify, track, print, and share QR codes.
 
 -or-
 

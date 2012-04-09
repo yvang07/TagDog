@@ -17,14 +17,18 @@ class Home extends CI_Controller {
 			switch ( $via ) {
 	
 				case "tweet":
-				echo 'Tweet';
+				$message = 'Tweet';
 				break;
 			
 				default:
-				echo 'Nada';
+				$message = 'Nada';
 				break;
 			}
+			
+			$output = '{ "message" : "'.$message.'"}';
+			echo $output;
 		}
+
 	}
 
 }
