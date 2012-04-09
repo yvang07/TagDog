@@ -6,9 +6,9 @@
 	<div class="row-fluid show-grid">
 	<div class="span4" id="share_left">
 		<div id="share_icon" class="share_twitter">
-		<button class="btn btn-info" name="share_var" id="share_button" value="tweet"><img src="../Images/share_tweet2.png" /></button></div>
+		<button class="btn btn-info" name="share_var" id="share_button" value="tweet"><img src="./images/share_tweet2.png" /></button></div>
 		<div id="share_icon">
-		<button class="btn btn-info" name="share_var" id="share_button" value="email"><img src="../Images/share_email.png" /></button></div>
+		<button class="btn btn-info" name="share_var" id="share_button" value="email"><img src="./images/share_email.png" /></button></div>
 	</div>
 	<div class="span4" id="share_center">
 		<div class="share_previews"></div>
@@ -16,9 +16,9 @@
 	</div>
 	<div class="span4" id="share_right">
 		<div id="share_icon">
-		<button class="btn btn-info" name="share_var" id="share_button" value="save"><img src="../Images/share_save.png" /></button></div>
+		<button class="btn btn-info" name="share_var" id="share_button" value="save"><img src="./images/share_save.png" /></button></div>
 		<div id="share_icon">
-		<button class="btn btn-info" name="share_var" id="share_button" value="print"><img src="../Images/share_print.png" /></button></div>
+		<button class="btn btn-info" name="share_var" id="share_button" value="print"><img src="./images/share_print.png" /></button></div>
 	</div>
 	</div>
 	</div>

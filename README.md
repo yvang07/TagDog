@@ -10,8 +10,7 @@ The following markups are supported.  The dependencies listed are required if
 you wish to run the library.
 
 * [Wiki](http://cloudedbox.com/cs152s/) -- `Project details`
-* [Demo](http://www.cloudedbox.com/TagDog/) -- `Down as of 4.8.12`
-
+* [Demo](http://www.cloudedbox.com/TagDog/) -- `Check it out`
 
 Contributing
 ------------

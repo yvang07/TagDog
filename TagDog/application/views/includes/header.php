@@ -11,7 +11,7 @@
     <link href="http://cloudedbox.com/bootstrap/css/bootstrap.css" rel="stylesheet">
     <link href="http://cloudedbox.com/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
     <link href="http://cloudedbox.com/TagDog2/bootstrap.min.css" rel="stylesheet">
-    <link href="../css/style.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
     <style type="text/css">
       /*body {
         padding-top: 60px;
