@@ -41,7 +41,7 @@
 			rel="popover" data-action="popover" 
 			data-content="<div style='width:100%; text-align:center;'>
 					<a data-toggle='modal' href='#modal_tags'>
-					<h1>Full View</h1></a><img src='../Images/nytimes.PNG' /></div>" 
+					<h1>Full View</h1></a><img src='./images/nytimes.PNG' /></div>" 
 			data-original-title="Tags">Your Tags</li>
             </ul>
           </div><!--/.well -->

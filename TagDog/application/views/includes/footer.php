@@ -38,7 +38,7 @@
     <script src="javascript/effects.js" type="text/javascript"></script>
     <script src="javascript/dragdrop.js" type="text/javascript"></script>
     <script src="javascript/controls.js" type="text/javascript"></script-->
-    <script src="javascript/ajax_post.js" type="text/javascript"></script>
+    <script src="javascript/application.js" type="text/javascript"></script>
 	<script>
 		jQuery(".alert").alert();
 		jQuery('#mainDisplay').scrollspy();

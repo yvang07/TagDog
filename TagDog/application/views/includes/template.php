@@ -13,6 +13,7 @@
 	//Modal
 	$this->load->view('view_modal_about');
 	$this->load->view('view_modal_tags');
+	$this->load->view('view_modal_contact');
 ?>
 
 <?php $this->load->view('includes/footer'); ?>
