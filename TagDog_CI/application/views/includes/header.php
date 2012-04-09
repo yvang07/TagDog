@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>[TAGDOG]</title>
-    <!--meta name="viewport" content="width=device-width, initial-scale=1.0"-->
+    <meta name="viewport" content="width=800px, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -30,6 +30,7 @@
 	top:0px;
 	left:0px;
 	position:relative;
+	overflow:hidden;
 	}
 .label,.alert{background-color:#666666;}
 .label:hover{background-color:#4d4d4d;}
@@ -51,6 +52,70 @@
 .alert-block{padding-top:14px;padding-bottom:14px;}
 .alert-block>p,.alert-block>ul{margin-bottom:0;}
 .alert-block p+p{margin-top:5px;}
+
+/* ================================================================ 
+This copyright notice must be kept untouched in the stylesheet at 
+all times.
+
+The original version of this stylesheet and the associated (x)html
+is available at http://www.cssplay.co.uk/menu/circular.html
+Copyright (c) Stu Nicholls. All rights reserved.
+This stylesheet and the associated (x)html may be modified in any 
+way to fit your requirements.
+=================================================================== */
+
+
+
+#share_container {
+	width:100%;
+	height:310px;
+	position:relative;
+	overflow:hidden;
+	margin:0 auto;
+}
+#share_left, #share_right, #share_center {
+	height:300px;
+	text-align:center;
+}
+#share_icon {
+	margin:0 auto;
+	height:100px;
+	width:100px;
+	position:relative;
+	margin-top:20px;
+}
+#share_preview {
+	margin:0 auto;
+	margin-top:100px;
+	width:200px;
+	height:200px;
+	position:relative;
+}
+#share_button {
+	width:100%;
+	height:100%;
+	position:relative;
+}
+#share_button_preview {
+	width:100%;
+	height:75%;
+	position:relative;
+	margin:0 auto;
+}
+/*CREATE CSS*/
+#create_super_container { width:100%; height:300px; }
+#create_container{overflow:hidden;}
+#user_text,#fname_create,#lname_create{display:block; margin-top:20px;}
+#QR_code{height: 100%; width: 100%; overflow:hidden; border-radius: 20px; background-color:black; border-color:black;}
+.create_text{display:inline-block;margin-right:100px;}
+.create_box{vertical-align: top; overflow:hidden; display: inline-block; height: 300px; width: 300px; background-color: rgb(56,56,56); border-radius:20px;margin-left:20px;}
+
+/*CREATE CSS ENDS*/
+
+/**********Browse Style**********/
+#map_canvas { height:300px;width:60%;border:1;border-style:solid;margin:0 auto; position:relative;}
+/*#browse_tag_info {height:350px;width:35%;float:right;border:1;border-style:solid;}*/
+/**********./Browse Style********/
 
     </style>
 

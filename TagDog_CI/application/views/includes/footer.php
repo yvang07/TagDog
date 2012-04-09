@@ -34,16 +34,34 @@
     <script src="../bootstrap/js/bootstrap-collapse.js"></script>
     <script src="../bootstrap/js/bootstrap-carousel.js"></script>
     <script src="../bootstrap/js/bootstrap-typeahead.js"></script>
-    <script src="javascript/prototype.js" type="text/javascript"></script>
+    <!--script src="javascript/prototype.js" type="text/javascript"></script>
     <script src="javascript/effects.js" type="text/javascript"></script>
     <script src="javascript/dragdrop.js" type="text/javascript"></script>
-    <script src="javascript/controls.js" type="text/javascript"></script>
+    <script src="javascript/controls.js" type="text/javascript"></script-->
     <script src="javascript/ajax_post.js" type="text/javascript"></script>
 	<script>
 		jQuery(".alert").alert();
-		jQuery('#mainDisplay').scrollspy({offset:-1000});
+		jQuery('#mainDisplay').scrollspy();
 		jQuery(".link_tags, .link_options").popover();
 	</script>
+
+<!--google_map_js-->
+    <script type="text/javascript"
+      src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDrFQDjPnHJhXpzFHfl1TYyeCkzY1JfgL8&sensor=false">
+    </script>
+    <script type="text/javascript">
+      function load_map() {
+        var myOptions = {
+          center: new google.maps.LatLng(-34.397, 150.644),
+          zoom: 8,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        var map = new google.maps.Map(document.getElementById("map_canvas"),
+            myOptions);
+      }
+    </script>
+<!--./google_map_js-->
+
 
   </body>
 </html>

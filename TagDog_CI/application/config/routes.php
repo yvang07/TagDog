@@ -38,10 +38,11 @@
 |
 */
 
-$route['default_controller'] = "home";
+$route['default_controller'] = "splash";
 $route['register'] = "register";
 $route['menu'] = "menu";
 $route['login'] = "login";
+$route['splash'] = "splash";
 $route['404_override'] = '';
 
 

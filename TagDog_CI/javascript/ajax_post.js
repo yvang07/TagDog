@@ -1,26 +1,56 @@
 jQuery(document).ready(function(){
 
-  
-	jQuery("#title_tagdog").hover(
+ 
+	jQuery("button#share_button").click(
 
-		function(){
-			var listsize = jQuery(".info_item").length;
-			var itemname = "info_item"+(listsize+1).toString();
-			jQuery("#info_list").append("<li id='"+itemname+"' class='info_item'>Hovered the title</li>"); 
-			clearTextAt(itemname, 3000);},
-		function(){}
-	);
-	jQuery("#title_tagdog").click(
-
-		function(){
+		function() {
 			var listsize = jQuery(".alert").length;
-			var itemname = "error_item"+(listsize+1).toString();
+			var itemname = "share_"+(listsize+1).toString();
+			var via = jQuery(this).val();
+			postStatus(itemname, via, 'info');
+			
+		}
 
-			jQuery("#error_list").append("<li id="+itemname+" class='alert alert-error'><a class='close' data-dismiss='alert' href='#'>&times;</a><strong>Warning!</strong> You broked it.</li>"); 
-			clearTextAt(itemname, 3000);}
-	);	
-	
-  
+
+	);
+	 
+
+    var keepPopover,
+        delay = function() { keepPopover = setTimeout( function() { $('.popover').hide(); }, 500); };            
+
+    jQuery('[data-action="popover"]').popover({
+        trigger: 'manual'
+    })
+
+
+    .mouseenter(function(e) {
+        var $popover = $('.popover');
+
+        (keepPopover) && clearTimeout(keepPopover);
+        ($popover.length) && $popover.remove();
+        $(this).popover('show');
+
+    })
+
+
+    .mouseleave(function(e) {
+        var $smarttip = $(this);
+
+        delay();
+
+        $('.popover')
+            .mouseenter(function(e) { clearTimeout(keepPopover); })
+            .mouseleave(function(e) { delay(); });
+        
+    }).click(function(e) {
+        e.preventDefault();
+    });
+
+function postStatus(itemname, message, type) {
+
+	jQuery("#error_list").append("<li id="+itemname+" class='alert alert-"+type+"'><a class='close' data-dismiss='alert' href='#'>&times;</a><strong>"+message+"</strong></li>"); 
+	clearTextAt(itemname, 3000);
+} 
 function clearTextAt(itemname, when) {
 
 	var t=setTimeout(function(){clearText(itemname)}, when);

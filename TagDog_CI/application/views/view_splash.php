@@ -1,11 +1,13 @@
-<div class="splash_page">
+<div id="splash_page">
     <div class="container-fluid">
       <div class="row-fluid">
         <div class="span3" style="height:100%; position:relative; overflow:hidden;">
+
+
+	<!-- LEFT SIDEBARS -->
           <div class="well sidebar-nav">
             <ul id="error_list" class="nav nav-list">
               <li class="nav-header">Current Status</li>
-
             </ul>
           </div><!--/.well -->
 
@@ -17,28 +19,41 @@
 
           <div class="well sidebar-nav">
             <ul class="nav nav-list">
+
               <li class="nav-header">Navigation</li>
-              <li><a href="#create"><i class="icon-plus"></i>Create</a></li>
-              <li><a href="#identify"><i class="icon-qrcode"></i>Identify</a></li>
-              <li><a href="#browse"><i class="icon-eye-open"></i>Browse</a></li>
-              <li><a href="#share"><i class="icon-heart"></i>Share</a></li>
-              <li><a href="#toggles"><i class="icon-off"></i>Toggles</a></li>
+              <li><a class="nav_link" id="nav_create" href="#create">
+		<i class="icon-plus"></i>	Create</a></li>
+              <li><a class="nav_link" id="nav_identify" href="#identify"><i class="icon-qrcode"></i>Identify</a></li>
+              <li><a class="nav_link" id="nav_browse" href="#browse">
+		<i class="icon-eye-open"></i>	Browse</a></li>
+              <li><a class="nav_link" id="nav_share" href="#share">
+		<i class="icon-heart"></i>	Share</a></li>
+              <li><a class="nav_link" id="nav_toggle" href="#toggles">
+		<i class="icon-off"></i>	Toggles</a></li>
+
               <li class="nav-header">Details</li>
-              <li><a href="../cs152s/">Wiki</a></li>
-              <li><a href="#">What</a></li>
-              <li><a href="#">How</a></li>
-              <li class="nav-header">Settings</li>
-              <li class="link_options" rel="popover" data-content="Your current settings are..." data-original-title="Options"><a href="#">Options</a></li>
-              <li class="link_tags" rel="popover" data-content="Thumbnails of your QR tags" data-original-title="Tags"><a href="#">Your Tags</a></li>
+              <li><a class="nav_link" id="nav_wiki" href="../cs152s/">	Wiki</a></li>
+              <li><a class="nav_link" id="nav_what" href="#">		What</a></li>
+              <li><a class="nav_link" id="nav_how" href="#">		How</a></li>
+
+              <li class="nav-header" rel="popover" data-action="popover" data-content="<H3>+1</H3>" data-original-title="EXPLORER BADGE" class="nav_link" id="nav_options">Settings</li>
+              <li class="nav-header"
+			rel="popover" data-action="popover" 
+			data-content="<div style='width:100%; text-align:center;'>
+					<a data-toggle='modal' href='#modal_tags'>
+					<h1>Full View</h1></a><img src='../Images/nytimes.PNG' /></div>" 
+			data-original-title="Tags">Your Tags</li>
             </ul>
           </div><!--/.well -->
 
           <div class="well sidebar-nav">
             <ul class="nav nav-list">
               <li class="nav-header">Download</li>
-	      <li><a href="http://goo.gl/RVePH"><img src="http://cloudedbox.com/TagDog2/app-store.png"></a></li>
+	      <li><a href="http://itunes.apple.com/us/app/tagdog/id495451281"><img src="http://cloudedbox.com/TagDog2/app-store.png"></a></li>
             </ul>
           </div><!--/.well -->
+	<!-- END OF LEFT SIDEBARS -->
+
 
         </div><!--/span-->
         <div class="span9">

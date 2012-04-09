@@ -9,6 +9,10 @@
 	$this->load->view('view_browse');
 	$this->load->view('view_share');
 	$this->load->view('view_toggles');
+	
+	//Modal
+	$this->load->view('view_modal_about');
+	$this->load->view('view_modal_tags');
 ?>
 
 <?php $this->load->view('includes/footer'); ?>

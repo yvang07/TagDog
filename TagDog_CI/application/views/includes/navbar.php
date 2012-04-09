@@ -9,8 +9,9 @@
           <a id="title_tagdog" class="brand" href="#">TagDog</a>
           <div class="nav-collapse">
             <ul class="nav">
+	      <li><img src="../Images/little_paw.png" style="top:5px; position:relative;"/></li>
               <li class="active"><a href="#">Home</a></li>
-              <li><a href="#about">About</a></li>
+              <li><a data-toggle="modal" href="#modal_about">About</a></li>
               <li><a href="#contact">Contact</a></li>
               <li><a href="http://goo.gl/RVePH">Download</a></li>
             </ul>

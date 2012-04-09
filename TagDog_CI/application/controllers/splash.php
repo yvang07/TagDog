@@ -24,4 +24,23 @@ class Splash extends CI_Controller {
 
 		
 	}
+	function share() {
+
+		$via = $_POST['share_var'];
+
+		if ($via != "") {
+
+			switch ( $via ) {
+	
+				case "tweet":
+				echo 'Tweet';
+				break;
+			
+				default:
+				echo 'Nada';
+				break;
+			}
+		}
+	}
+
 }
