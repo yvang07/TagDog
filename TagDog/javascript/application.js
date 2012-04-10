@@ -1,35 +1,49 @@
 jQuery(document).ready(function(){
 
+
+
+//Share 
+jQuery("button#share_button").click(
+	function() {
+		var listsize = jQuery(".alert").length;
+		var itemname = "share_"+(listsize+1).toString();
+		var via = jQuery(this).val();
+		
+		jQuery.ajax ({
+			 type: "POST",
+			 url:  "http://cloudedbox.com/TagDog/home/share",
+			 dataType: "json",
+			 data: "share_var="+via,
+			 cache:false,
+			 success:
+			  function(data) {
+			    postStatus(itemname, data.message, 'info');
+			  }
+		});
+		return false;
+	});
+//End Share
  
-	jQuery("button#share_button").click(
+//Displaying Messages
+function postStatus(itemname, message, type) {
 
-		function() {
-			var listsize = jQuery(".alert").length;
-			var itemname = "share_"+(listsize+1).toString();
-			var via = jQuery(this).val();
-			
-			jQuery.ajax ({
+	jQuery("#error_list").append("<li id="+itemname+" class='alert alert-"+type+"'><a class='close' data-dismiss='alert' href='#'>&times;</a><strong>"+message+"</strong></li>"); 
+	clearTextAt(itemname, 3000);
+} 
+function clearTextAt(itemname, when) {
 
-			  type: "POST",
-			  url:  "http://cloudedbox.com/TagDog/home/share",
-			  dataType: "json",
-			  data: "share_var="+via,
-			  cache:false,
-			  success:
-			   function(data) {
-			     postStatus(itemname, data.message, 'info');
-			   }
-			});
-			return false;
+	var t=setTimeout(function(){clearText(itemname)}, when);
+}
 
-		}
+function clearText(itemname) {
+	//jQuery(('#'+itemname)).html("");
+	jQuery(('#'+itemname)).remove();
+}
+//End Displaying Messages
 
 
-	);
-	 
-
-    var keepPopover,
-        delay = function() { keepPopover = setTimeout( function() { $('.popover').hide(); }, 500); };            
+// Popover Stuff
+var keepPopover, delay = function() { keepPopover = setTimeout( function() { $('.popover').hide(); }, 500); };            
 
     jQuery('[data-action="popover"]').popover({
         trigger: 'manual'
@@ -45,7 +59,6 @@ jQuery(document).ready(function(){
 
     })
 
-
     .mouseleave(function(e) {
         var $smarttip = $(this);
 
@@ -58,21 +71,8 @@ jQuery(document).ready(function(){
     }).click(function(e) {
         e.preventDefault();
     });
+//End Popover Stuff
 
-function postStatus(itemname, message, type) {
-
-	jQuery("#error_list").append("<li id="+itemname+" class='alert alert-"+type+"'><a class='close' data-dismiss='alert' href='#'>&times;</a><strong>"+message+"</strong></li>"); 
-	clearTextAt(itemname, 3000);
-} 
-function clearTextAt(itemname, when) {
-
-	var t=setTimeout(function(){clearText(itemname)}, when);
-}
-
-function clearText(itemname) {
-	//jQuery(('#'+itemname)).html("");
-	jQuery(('#'+itemname)).remove();
-}
 });
 
 
