@@ -12,7 +12,7 @@
 	</div>
 	<div class="span4" id="share_center">
 		<div class="share_previews"></div>
-		<button class="btn" id="share_button_preview">Preview</button>
+		<button class="btn" id="identify_drag_area">Preview</button>
 	</div>
 	<div class="span4" id="share_right">
 		<div id="share_icon">

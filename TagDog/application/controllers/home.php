@@ -31,4 +31,31 @@ class Home extends CI_Controller {
 
 	}
 
+	function toggle() {
+
+		$via = $_POST['toggle_var'];
+
+		if ($via != "") {
+
+			switch ( $via ) {
+	
+				case "track":
+				$message = 'Track Toggled';
+				break;
+			
+				case "missing":
+				$message = 'Missing Toggled';
+				break;
+
+				default:
+				$message = 'Error';
+				break;
+			}
+			
+			$output = '{ "message" : "'.$message.'"}';
+			echo $output;
+		}
+
+	}
+
 }

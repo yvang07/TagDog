@@ -47,7 +47,7 @@ way to fit your requirements.
 =================================================================== */
 
 
-
+/*Share*/
 #share_container {
 	width:100%;
 	height:310px;
@@ -84,6 +84,15 @@ way to fit your requirements.
 	position:relative;
 	margin:0 auto;
 }
+/*End Share*/
+#identify_drop {
+	width:100%;
+	height:75%;
+	position:relative;
+	margin:0 auto;
+}
+
+
 /*CREATE CSS*/
 #create_super_container { width:100%; height:300px; }
 #create_container{overflow:hidden;}

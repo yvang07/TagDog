@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>[TAGDOG]</title>
-    <meta name="viewport" content="width=800px, initial-scale=1.0">
+    <meta name="viewport" content="width=800px, initial-scale=0.5">
     <meta name="description" content="">
     <meta name="author" content="">
 
