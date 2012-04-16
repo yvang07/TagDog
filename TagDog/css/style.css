@@ -93,15 +93,15 @@ way to fit your requirements.
 	overflow:hidden;
 	margin: 0px auto 0px auto;
 }
-#user_text,#fname_create,#lname_create{
+#c_line1,#c_line2,#c_line3,#c_line4{
 	width: 100%;
 	height: 20px;
 	display:block;
 	margin-top:20px;
 }
 #QR_code{
-	height: 100%;
-	width: 100%;
+	height: 300px;
+	width: 300px;
 	overflow:hidden;
 	border-radius: 20px;
 	background-color:black;
