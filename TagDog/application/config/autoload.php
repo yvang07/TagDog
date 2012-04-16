@@ -52,7 +52,15 @@ $autoload['packages'] = array();
 |	$autoload['libraries'] = array('database', 'session', 'xmlrpc');
 */
 
+<<<<<<< HEAD:TagDog/application/config/autoload.php
 $autoload['libraries'] = array('database');
+=======
+<<<<<<< HEAD
+//$autoload['libraries'] = array('database');
+=======
+$autoload['libraries'] = array('');
+>>>>>>> e80a3cb667c8f2174953ba67dd05993747b37cd9
+>>>>>>> f8e0bd4cdc370e552a5bb570ae5c978b197be184:TagDog_CI/application/config/autoload.php
 
 
 /*
