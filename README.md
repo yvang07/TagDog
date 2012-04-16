@@ -1,7 +1,7 @@
 TagDog
 ========
 
-A system to create and recover QR codes.
+A system to create, identify and recover QR codes.
 
 Information
 -------
