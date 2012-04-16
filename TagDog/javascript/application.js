@@ -25,7 +25,7 @@ jQuery("button#share_button").click(
 //End Share
 
 //Identify
-jQuery("button#share_button").click(
+jQuery("#notarealname").click(
 	function() {
 		var listsize = jQuery(".alert").length;
 		var itemname = "share_"+(listsize+1).toString();

@@ -6,7 +6,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a id="title_tagdog" class="brand" href=".">TagDog</a>
+          <a id="title_tagdog" class="brand" data-toggle="collapse" data-target=".nav-collapse" href="#">TagDog</a>
           <div class="nav-collapse">
             <ul class="nav">
 	      <li><img src="./images/little_paw.png" style="top:5px; position:relative;"/></li>

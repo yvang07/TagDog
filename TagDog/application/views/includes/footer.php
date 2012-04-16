@@ -17,7 +17,7 @@
       </footer>
 
     </div><!--/.fluid-container-->
-</div><!--splash page--> 
+<!--/div><splash page--> 
 <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

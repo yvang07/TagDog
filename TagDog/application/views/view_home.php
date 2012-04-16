@@ -1,7 +1,7 @@
-<div id="splash_page">
+<!--div id="splash_page"-->
     <div class="container-fluid">
       <div class="row-fluid">
-        <div class="span3" style="height:100%; position:relative; overflow:hidden;">
+        <div class="span3">
 
 
 	<!-- LEFT SIDEBARS -->

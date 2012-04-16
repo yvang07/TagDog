@@ -2,14 +2,14 @@
  	    <p>
             <small>Lost something?</small>
 	  	<!-- style attribute here should be moved to style.css --> 
-		<div class="row-fluid show-grid" style="width:100%; height:400px;"> 
+		<div class="row-fluid show-grid" style="width:100%; height:250px;"> 
 			<div class="span6" id="toggle_left">
 
-				<div class="btn-group" data-toggle="buttons-radio">
-				<button class="normal btn" value="normal">Normal</button>
-				<button class="track btn" value="track">Track</button>
-				<button class="missing btn" value="missing" data-loading-text="loading stuff..." data-complete-text="finished!">Missing</button>
-				</div>
+				<div style="position:relative; width:100%; text-align:center">
+				<div class="btn-group" data-toggle="buttons-radio" style="margin-left:50px">
+				<button class="btn btn-large btn-info" value="track">Track</button>
+				<button class="btn btn-large btn-info" value="missing">Missing</button>
+				</div></div>
 	
 			</div>
 

@@ -3,14 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>[TAGDOG]</title>
-    <meta name="viewport" content="width=800px, initial-scale=0.5">
+    <meta name="viewport" content="width=900px, initial-scale=0.4">
     <meta name="description" content="">
     <meta name="author" content="">
 
     <!-- Le styles -->
     <link href="http://cloudedbox.com/bootstrap/css/bootstrap.css" rel="stylesheet">
-    <link href="http://cloudedbox.com/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
     <link href="http://cloudedbox.com/TagDog2/bootstrap.min.css" rel="stylesheet">
+    <link href="http://cloudedbox.com/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+
     <link href="./css/style.css" rel="stylesheet">
     <style type="text/css">
       /*body {

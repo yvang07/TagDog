@@ -2,7 +2,6 @@
 <p>
         <small>Tell all of your friends!</small>
 	
-	<div id="share_container">
 	<div class="row-fluid show-grid">
 	<div class="span4" id="share_left">
 		<div id="share_icon" class="share_twitter">
@@ -10,17 +9,20 @@
 		<div id="share_icon">
 		<button class="btn btn-info" name="share_var" id="share_button" value="email"><img src="./images/share_email.png" /></button></div>
 	</div>
-	<div class="span4" id="share_center">
-		<div class="share_previews"></div>
-		<button class="btn" id="identify_drag_area">Preview</button>
+
+	<div class="span3" id="share_center">
+		<span style="width:100%; position:relative; text-align:center;">Preview</span>
+		<div class="share_preview"></div>
+		<button class="btn" id="share_button_preview">Create one first.</button>
 	</div>
+
 	<div class="span4" id="share_right">
 		<div id="share_icon">
 		<button class="btn btn-info" name="share_var" id="share_button" value="save"><img src="./images/share_save.png" /></button></div>
 		<div id="share_icon">
 		<button class="btn btn-info" name="share_var" id="share_button" value="print"><img src="./images/share_print.png" /></button></div>
 	</div>
-	</div>
+
 	</div>
 </p>
 

@@ -2,7 +2,7 @@
         padding: 9px 0;
       }
 	.mainScroll {
-	  height: 400px;
+	  height: 350px;
   	overflow: auto;
   	position: relative;
 	}
@@ -109,3 +109,10 @@ way to fit your requirements.
 /**********./Browse Style********/
 
 
+
+/* TOGGLE CSS */
+#toggle_left {
+
+	text-align:center;
+}
+/* TOGGLE CSS ENDS */
