@@ -1,4 +1,0 @@
-[21-Mar-2012 16:08:45] PHP Parse error:  syntax error, unexpected '{' in /home6/clouded1/public_html/CI/TagDog/TagDog_CI/application/controllers/login.php on line 19
-[21-Mar-2012 16:11:29] PHP Parse error:  syntax error, unexpected $end, expecting T_FUNCTION in /home6/clouded1/public_html/CI/TagDog/TagDog_CI/application/controllers/login.php on line 39
-[21-Mar-2012 16:11:30] PHP Parse error:  syntax error, unexpected $end, expecting T_FUNCTION in /home6/clouded1/public_html/CI/TagDog/TagDog_CI/application/controllers/login.php on line 39
-[21-Mar-2012 16:11:33] PHP Parse error:  syntax error, unexpected $end, expecting T_FUNCTION in /home6/clouded1/public_html/CI/TagDog/TagDog_CI/application/controllers/login.php on line 39
