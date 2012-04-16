@@ -94,12 +94,38 @@ way to fit your requirements.
 
 
 /*CREATE CSS*/
-#create_super_container { width:100%; height:300px; }
-#create_container{overflow:hidden;}
-#user_text,#fname_create,#lname_create{display:block; margin-top:20px;}
-#QR_code{height: 100%; width: 100%; overflow:hidden; border-radius: 20px; background-color:black; border-color:black;}
-.create_text{display:inline-block;margin-right:100px;}
-.create_box{vertical-align: top; overflow:hidden; display: inline-block; height: 300px; width: 300px; background-color: rgb(56,56,56); border-radius:20px;margin-left:20px;}
+#create_super_container {
+	width:100%;
+	height:300px;
+}
+#create_container{
+	overflow:hidden;
+	margin: 0px auto 0px auto;
+}
+#c_line1,#c_line2,#c_line3,#c_line4{
+	width: 100%;
+	height: 20px;
+	display:block;
+	margin-top:20px;
+}
+#QR_code{
+	height: 300px;
+	width: 300px;
+	overflow:hidden;
+	border-radius: 20px;
+	background-color:black;
+	border-color:black;
+}
+#create_left{
+	display:inline-block;
+}
+#create_right{
+	vertical-align: top;
+	overflow:hidden;
+	display: inline-block;
+	background-color: rgb(56,56,56);
+	border-radius:20px;
+}
 
 /*CREATE CSS ENDS*/
 
