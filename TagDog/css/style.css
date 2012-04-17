@@ -52,7 +52,7 @@ way to fit your requirements.
 	width:100%;
 	height:310px;
 	position:relative;
-	overflow:hidden;
+	overflow:scroll;
 	margin:0 auto;
 }
 #share_left, #share_right, #share_center {
@@ -94,43 +94,33 @@ way to fit your requirements.
 
 
 /*CREATE CSS*/
-#create_super_container {
-	width:100%;
-	height:300px;
-}
-#create_container{
-	overflow:hidden;
-	margin: 0px auto 0px auto;
-}
-#c_line1,#c_line2,#c_line3,#c_line4{
-	width: 100%;
-	height: 20px;
-	display:block;
-	margin-top:20px;
-}
 #QR_code{
-	height: 300px;
-	width: 300px;
+	height: 250px;
+	width: 250px;
 	overflow:hidden;
-	border-radius: 20px;
-	background-color:black;
-	border-color:black;
 }
-#create_left{
-	display:inline-block;
+
+/* added by Cameron */
+#create_left input {
+	width:90%;
+	margin:0 auto;
+	margin-bottom:10px;
 }
-#create_right{
-	vertical-align: top;
-	overflow:hidden;
-	display: inline-block;
-	background-color: rgb(56,56,56);
-	border-radius:20px;
+#create_left, #create_right {
+	text-align:center;
+	padding-bottom:10px;
 }
 
 /*CREATE CSS ENDS*/
 
 /**********Browse Style**********/
-#map_canvas { height:300px;width:60%;border:1;border-style:solid;margin:0 auto; position:relative;}
+/*#map_canvas { height:300px;width:60%;border:1;border-style:solid;margin:0 auto; position:relative;}*/
+/*BROWSE CSS*/
+#map_canvas {width:90%; margin:0 auto; position:relative; height:350px;border:1;border-style:solid;}
+#map_canvas img {max-width:none;} /*Needed to fix distortion of images on Google Map API*/
+/*BROWSE CSS END*/
+
+
 /*#browse_tag_info {height:350px;width:35%;float:right;border:1;border-style:solid;}*/
 /**********./Browse Style********/
 
