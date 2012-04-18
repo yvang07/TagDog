@@ -22,10 +22,19 @@
 				    var line3=document.getElementById("c_line3").value;
 				    var line4=document.getElementById("c_line4").value;
 				    var TAG=document.getElementById("QR_code");
+<<<<<<< HEAD
 				    TAG.src=URL+line1+line2+line3+line4;
+=======
+				    TAG.src=URL+fname+lname;
+>>>>>>> 35e556c6640e926c1dcf55c1b23be50d7a4b81d4
 				    jQuery("button#share_button_preview").html("<img src='"+URL+line1+line2+line3+line4"' />");
 				}
 			   </script>
 		    </div>
 		</div>
+<<<<<<< HEAD
 	    </p>
+=======
+	    </p>
+
+>>>>>>> 35e556c6640e926c1dcf55c1b23be50d7a4b81d4
