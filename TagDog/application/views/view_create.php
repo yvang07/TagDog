@@ -12,7 +12,7 @@
 			    </form>
 		    </div>
 		    <div class="span6" id="create_right">
-			    <button class="btn" />Code Will Appear Here</br><img id="QR_code" src=""/></button>
+			    <button class="btn"/>Code Will Appear Here</br><div id="QR_code"></div></button>
 			    <script>
 				function createTAG()
 				{
@@ -20,7 +20,7 @@
 				    var fname=document.getElementById("c_line1").value;
 				    var lname=document.getElementById("c_line2").value;
 				    var TAG=document.getElementById("QR_code");
-				    TAG.src=URL+fname+lname;
+				    jQuery("div#QR_code").html("<img src='"+URL+fname+lname+"' />");
 				    jQuery("button#share_button_preview").html("<img src='"+URL+fname+lname+"' />");
 				}
 			    </script>
