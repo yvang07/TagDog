@@ -1,0 +1,1 @@
+[14-Apr-2012 02:37:38] PHP Fatal error:  Call to undefined function  createqrfromlink() in /home6/clouded1/public_html/TagDog/application/controllers/home.php on line 17
