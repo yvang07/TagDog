@@ -25,7 +25,7 @@
 				    TAG.src=URL+fname+lname;
 				    jQuery("button#share_button_preview").html("<img src='"+URL+line1+line2+line3+line4"' />");
 				}
-			    </script>
+			   </script>
 		    </div>
 		</div>
 	    </p>
