@@ -264,6 +264,32 @@ var keepPopover, delay = function() { keepPopover = setTimeout( function() { $('
     });
 //End Popover Stuff
 
+
+//create section functions
+function createTag(){
+		var URL="https://chart.googleapis.com/chart?cht=qr&chs=150x150&chl="
+		var line1=document.getElementById("c_line1").value;
+		var line2=document.getElementById("c_line2").value;
+		var line3=document.getElementById("c_line3").value;
+		var line4=document.getElementById("c_line4").value;
+		//var TAG=document.getElementById("QR_code");
+		var TAG=URL+line1+line2+line3+line4;
+		jQuery("button#Tag_Box").html("</br><a href='#share'><img id='QR_code' src='"+TAG+"'/></a>");
+		jQuery("button#share_button_preview").html("<img src='"+URL+line1+line2+line3+line4+"' />");
+}
+
+jQuery("button#create_btn").click(
+		function() {
+			createTag();
+		}
+	);
+
+jQuery("button#Tag_Box").click(
+		function() {
+			//
+		}
+	);
+
 });
 
 
