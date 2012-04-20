@@ -49,9 +49,9 @@ $active_group = 'default';
 $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'root';//'clouded1_public';
-$db['default']['password'] = '';//'publicpassword';
-$db['default']['database'] = 'tagdog_db';//'clouded1_box';
+$db['default']['username'] = 'clouded1_public';
+$db['default']['password'] = 'publicpassword';
+$db['default']['database'] = 'clouded1_box';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;

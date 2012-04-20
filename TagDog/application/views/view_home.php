@@ -13,7 +13,14 @@
 
           <div class="well sidebar-nav">
             <ul id="info_list" class="nav nav-list">
-              <li id="information" class="nav-header">Information</li>
+              <li id="information" class="nav-header">Login</li>
+		<li>
+		<form class="form-inline">
+  			<input type="text" class="input-small" placeholder="user">
+  			<input type="password" class="input-small" placeholder="password">
+  			<button type="submit" class="btn"><i class="icon-ok"></i></button>
+			</form>
+		</li>
             </ul>
           </div><!--/.well -->
 

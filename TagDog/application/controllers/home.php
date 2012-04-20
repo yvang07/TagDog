@@ -17,14 +17,19 @@ class Home extends CI_Controller {
 		$config['zoom'] = "auto";
 		$this->googlemaps->initialize($config);
 		// Get the co-ordinates from the database using our model
-		$coords = $this->model_browse->get_coordinates();
+
+		//This section is commented out until the database it references
+		//is created at cloudedbox.com ---
+
+		/*$coords = $this->model_browse->get_coordinates();
 		// Loop through the coordinates we obtained above and add them to the map
 		foreach ($coords as $coordinate) {
 		$marker = array();
 		$marker['position'] = $coordinate->lat.','.$coordinate->long;
 		$marker['infowindow_content'] = $coordinate->item;
 		$this->googlemaps->add_marker($marker);
-		}
+		}*/
+
 		// Create the map
 		$data = array();
 		$data['map'] = $this->googlemaps->create_map();
