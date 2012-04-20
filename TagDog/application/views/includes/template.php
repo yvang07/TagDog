@@ -6,7 +6,7 @@
 
 	$this->load->view('view_create');
 	$this->load->view('view_identify');
-	$this->load->view('view_browse');
+	$this->load->view('view_browse', $map);
 	$this->load->view('view_share');
 	$this->load->view('view_toggles');
 	
@@ -16,4 +16,4 @@
 	$this->load->view('view_modal_contact');
 ?>
 
-<?php $this->load->view('includes/footer'); ?>
+<?php $this->load->view('includes/footer', $map); ?>

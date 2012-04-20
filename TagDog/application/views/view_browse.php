@@ -6,7 +6,7 @@
             	<div class="row-fluid show-grid">
             		<div class="span12">
 	    				<div id="map_canvas">
-	    					<div id="map_canvas"></div>
+	    					<?php echo $map['html'];?>
 	   				</div>
 	   			</div>
 	   		</div>	 
