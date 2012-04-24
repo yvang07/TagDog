@@ -108,5 +108,10 @@ class Home extends CI_Controller {
 
 	}
 
+	function browse()
+	{
+		//this function will get user's coordinates and drop pin on map
+	}
+
 
 }
