@@ -13,9 +13,23 @@ class Home extends CI_Controller {
 		// Load browse model
 		$this->load->model('model_browse');
 		// Initialize the map, passing through any parameters
-		$config['center'] = 'Fresno, California';
+		$config['center'] = 'auto';  //'Fresno, California';
 		$config['zoom'] = "auto";
+		
+		//get user's coordinates and place map
+		$config['onboundschanged'] = 'if (!centreGot) {
+		var mapCentre = map.getCenter();
+		marker_0.setOptions({
+		position: new google.maps.LatLng(mapCentre.lat(), mapCentre.lng()) 
+		});
+		}
+		centreGot = true;';
 		$this->googlemaps->initialize($config);
+		
+		$marker = array();
+		$marker['icon'] = 'http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=A|9999FF|000000';
+		$marker['infowindow_content'] = "You're here";
+		$this->googlemaps->add_marker($marker);
 		// Get the co-ordinates from the database using our model
 
 		//This section is commented out until the database it references
